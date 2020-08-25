@@ -1,0 +1,83 @@
+.conteudo-login{
+    width: 100%;    
+    height: 90vh;
+    margin-top: 5vh;
+    padding-top: 5px;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgba(93, 18, 233, 1);
+    border-radius: 10px;
+}
+
+.Login-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.form-Login {
+    width: 80%;    
+    height: 75vh;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(93, 18, 233, 0.712);
+    text-align: center;
+}
+
+.form-Login h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;    
+}
+
+.campo {
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+}
+
+.campo label{
+    font-size: 13px;
+}
+
+
+.campo input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+    margin-top: 5px;
+}
+
+.campo button{
+    background: none;
+    margin-left: 10px;
+    border: solid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.formulario p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer-login {
+    font-size: 10px;
+    margin-left: 5px;
+}
+

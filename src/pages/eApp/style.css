@@ -1,0 +1,159 @@
+.conteudo-eApp {
+    width: 100%;
+    text-align: center;    
+}
+
+.topConteudo img{
+    margin-top: 10px;
+}
+
+.produtos {
+    display: flexbox;
+    margin-top: 10px;
+}
+
+.produtos h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.menuVertical{
+   text-align: left;
+}
+
+.menuVertical nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: 250px;
+    height: 65vh;
+    left: -250px;
+    position: absolute;
+    text-align: left;
+    transition: .7s;
+}
+
+.menuVertical .li{
+    margin-top: 15px;
+    padding: 20px 35px;
+    display: block;
+}
+
+.menuVertical .li select{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menuVertical .li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+}
+
+.btnMenu {
+    width: 20px;
+    padding-left: 10px;
+}
+
+#chec{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(260px);
+}
+
+.loja{
+    width: 100%;
+}
+
+.selecionarPor{
+    text-align: right;
+}
+
+.products{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products li{
+    list-style: none;
+    flex: 0 1 20rem;
+    margin: .5rem;
+    height: 33rem;
+    border-bottom: .1rem whitesmoke solid;
+}
+
+.products img{
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 5px;
+}
+
+.product-name{
+    font-size: 24px;    
+}
+
+.product-price{
+    font-size: 22px;
+}
+
+.product-description{
+    font-size: 14px;
+}
+
+.product-description:hover{
+    color: orangered;
+}
+
+.info{
+    display:  flex;
+    justify-content: center;
+}
+
+.infoContato{
+    width: 40%;
+}
+
+.pre-cadastro{
+    width: 60%;
+}
+
+.pre-cadastro h3{
+    font-size: 16px;
+}
+
+.campo-formCont {
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+}
+
+.campo-formCont p{
+    font-size: 10px;
+}
+
+.campo-formCont label{
+    font-size: 13px;
+}
+
+.campo-formCont input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+    margin-top: 25px;
+}
+
+.campo-formCont button{
+    background: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: solid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}

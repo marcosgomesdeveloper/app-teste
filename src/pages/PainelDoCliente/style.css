@@ -1,0 +1,43 @@
+.conteudo-PainelDoCliente{
+    width: 100%;
+    text-align: center; 
+}
+
+.PainelDoCliente{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.menuVerticalP{
+    text-align: left;
+}
+ 
+.menuVerticalP nav{
+     background-color: rgba(0, 0, 0, 0.4);
+     border-radius: 5px;
+     width: 250px;
+     height: 72vh;
+     left: -250px;
+     text-align: left;
+     transition: .7s;
+}
+
+.menuVerticalP .li p{
+    width: 100%;
+    margin-top: 35px;
+}
+ 
+.menuVerticalP .li{
+     padding: 10px 25px;
+     display: block;
+}
+ 
+.menuVerticalP .li:hover{
+     color: whitesmoke;
+}
+
+.MVp2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}

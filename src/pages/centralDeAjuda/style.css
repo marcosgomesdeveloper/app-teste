@@ -1,0 +1,26 @@
+.conteudo-CentralDeAjuda{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.topConteudo a {
+    text-decoration: none;
+}
+
+.topConteudo li {
+    list-style-type: none;
+    border: solid;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.topConteudo p{
+    width: 20%;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.formConteudoCA {
+    margin-top: 80px;
+}

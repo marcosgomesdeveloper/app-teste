@@ -1,0 +1,99 @@
+.conteudoCadCliente {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.conteudoCadCliente a {
+    text-decoration: none;
+}
+
+.conteudoCadCliente li {
+    list-style-type: none;
+}
+
+.topConteudo {
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    border-radius: 15px;
+    border-bottom: 1px solid rgba(93, 18, 233, 0.712);
+}
+
+.topConteudo nav {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+}
+
+.topConteudo ul{
+    display: inline-flex;
+}
+
+.topConteudo li{
+    margin: 5px;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.top-logo {
+    margin-top: 25px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 40px;
+}
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.Conteudo{
+    height: 68vh;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-top: 1px;
+}
+
+.Conteudo p{
+    margin-top: 15px;
+}
+
+
+.campo-formCad {
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.campo-formCad label{
+    font-size: 13px;
+}
+
+.campo-formCad input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+    margin-top: 5px;
+}
+
+.campo-formCad button{
+    background: none;
+    margin-left: 10px;
+    border: solid;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}  
+
+.footerConteudo {
+    border-top: 1px solid rgba(93, 18, 233, 1);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
